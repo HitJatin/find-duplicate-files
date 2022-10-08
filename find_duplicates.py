@@ -9,6 +9,5 @@ def addFilesInHashMap(path):
             if filesPath.get(file) == None:
                 filesPath[file] = []
             filesPath[file].append(path)
-            print(filesPath)
 addFilesInHashMap("./test")
 print(filesPath)
